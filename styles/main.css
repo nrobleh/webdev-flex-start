@@ -5,4 +5,89 @@ body{
 }
 h1, h2{
     font-family: 'Raleway', sans-serif;
+
 }
+
+.container{
+    border:4px solid #688894;
+    margin:50px;
+    padding:50px;
+}
+nav ul li{	
+    display:inline;
+}
+nav ul{
+    padding-left:0;
+    list-style:none;	
+}
+header{
+    background-color: #c3c7cf;	
+    border-radius: 8px;
+    display:flex;
+    justify-content:space-between;
+}
+
+header h1 a{
+    color:#eeedf7;
+    text-decoration: none;
+}
+header h1 a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding:10px;
+}
+
+nav li a{
+    text-decoration: none;	
+    color: #fff;	
+}
+nav li a:hover{
+    color: #5f7295;	
+}
+
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
+}
+section{
+    padding:10px 10px 10px 10px;
+    flex: 1 1 auto;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
+
+}
+.sidebar{
+    padding:20px 40px;	
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
+    flex:0 0 200px;
+ }
+ main{
+    display:flex;
+    gap: 15px;
+}
+.resize-img{
+    width:100%;
+    height:100%;
+}
+footer{
+    border-top:1px solid #ccc;
+    margin:20px 10px 10px 0;
+    font-size:0.8em;
+    text-align:center;
+    font-style:italic;
+}
+
+
+.left-float{
+    flex-direction: row;
+    padding: 0 15px 15px 0;
+
+
+}
+
